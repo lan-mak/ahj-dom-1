@@ -11,12 +11,14 @@ module.exports = merge(common, {
 
   devServer: {
     historyApiFallback: true,
-    static: {
-      directory: path.join(__dirname, 'dist'),
-    },
+    watchFiles: ["./src/*"],
+    // static: {
+    //   directory: path.join(__dirname, 'dist'),
+    // },
     open: true,
     compress: true,
     port: 9000,
+    hot: true,
   },
 
   plugins: [
