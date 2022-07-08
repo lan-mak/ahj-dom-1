@@ -1,3 +1,25 @@
 body {
     color: #999999;
 }
+
+.board {
+  border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.board .field {
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  display: flex;
+  justify-content: center;
+}
+
+.board .field img {
+  align-self: center;
+}
+
+

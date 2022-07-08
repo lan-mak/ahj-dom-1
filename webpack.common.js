@@ -4,9 +4,9 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: './src',
+  target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    // publicPath: './',
   },
   module: {
     rules: [
