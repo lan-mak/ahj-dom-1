@@ -1,3 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/v5xm7kgoufmwf886?svg=true)](https://ci.appveyor.com/project/lan-mak/ahj-dom-1)
+
+**DEPLOYMENT:** https://lan-mak.github.io/ahj-dom-1/
+
 ### Перемещение элемента
 
 #### Легенда
