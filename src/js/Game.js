@@ -23,6 +23,7 @@ export default class Game {
 
   randomField() {
     const randomIndex = Math.floor(Math.random() * this.fields.length);
+    /* istanbul ignore next */
     if (randomIndex === this.goblinPosition) {
       this.randomField();
     }
@@ -40,9 +41,11 @@ export default class Game {
 
   startGame() {
     setInterval(() => {
+      /* istanbul ignore next */
       if (this.goblinPosition !== null) {
         this.deleteGoblin();
       }
+      /* istanbul ignore next */
       this.showGoblin();
     }, 1000);
   }
